@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9282be56-1786-11eb-ef8e-7c7a9189e2cf">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9282be56-1786-11eb-ef8e-7c7a9189e2cf">
   <producedTypes>
     <objectType typeId="9282be24-1786-11eb-ef8e-7c7a9189e2cf" valueTypeId="9282be2e-1786-11eb-ef8e-7c7a9189e2cf"/>
     <refType typeId="9282be38-1786-11eb-ef8e-7c7a9189e2cf" valueTypeId="9282be39-1786-11eb-ef8e-7c7a9189e2cf"/>
@@ -28,6 +28,15 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ead50830-69b1-4ce6-a594-3581ec4b0954">
+      <name>МоиДанные</name>
+      <description>Мои данные</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Контакты.Form.ФормаЭлемента</defaultObjectForm>
