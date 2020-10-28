@@ -27,4 +27,5 @@
   </languages>
   <commonModules>CommonModule.ОбщийМодуль</commonModules>
   <catalogs>Catalog.Контакты</catalogs>
+  <reports>Report.ВсеКонтакты</reports>
 </mdclass:Configuration>
